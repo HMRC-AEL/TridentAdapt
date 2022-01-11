@@ -13,7 +13,7 @@
 ```
 
 ![Demo](media/demo.gif)
-![Results](media/results.png)
+![Results](media/results.PNG)
 
 
 ## Datasets
