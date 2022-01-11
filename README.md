@@ -49,11 +49,14 @@ python evaluate_val.py ./weights --city_data_path /data/Cityscapes
 
 ### Pretrained Weights
 We provide our pretrained models and generated pseudo labels:
-[GTA5 Pseudo Labels](https://drive.google.com/)
-[GTA5 final model](https://drive.google.com/) (peaked at 53.5 mIoU)
 
-[Synthia Pseudo Labels](https://drive.google.com/)
-[Synthia final model](https://drive.google.com/) (54.4 mIoU/13 Classes)
+[GTA5 Pseudo Labels](https://drive.google.com/),
+
+[GTA5 final model](https://drive.google.com/) (peaked at 53.5 mIoU).
+
+[Synthia Pseudo Labels](https://drive.google.com/),
+
+[Synthia final model](https://drive.google.com/) (54.4 mIoU/13 Classes).
 
 
 ## Acknowledgement
