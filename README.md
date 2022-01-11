@@ -29,16 +29,16 @@ The data folder `/data` follows the original structure of each dataset (e.g. GTA
   ```
 ## Usage
 
-### Run Training Script: GTA5 to Cityscapes 
-### Stage 1
+### Run Training Script: e.g. GTA5->Cityscapes 
+### Stage1 (go to ./TridentAdapt_GTA5 folder)
 ```
 python train_gta2city_stg1.py --gta5_data_path /data/GTA5 --city_data_path /data/Cityscapes
 ```
-### After stage 1, generate pseudo-labels and put in /data/Cityscapes for stage 2 self-training
+### After stage1, generate pseudo-labels and put in /data/Cityscapes for stage2 self-training
 ```
 python pseudolabel_generator.py ./weights --city_data_path ./data/Cityscapes
 ```
-### Stage 2
+### Stage2
 ```
 python train_gta2city_stg2.py --gta5_data_path /data/GTA5 --city_data_path /data/Cityscapes
 ```
