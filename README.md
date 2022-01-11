@@ -50,14 +50,14 @@ python evaluate_val.py ./weights --city_data_path /data/Cityscapes
 ### Pretrained Weights
 We provide our pretrained models and generated pseudo labels:
 
-[GTA5 Pseudo Labels](https://drive.google.com/),
+[GTA5 Pseudo Labels](https://drive.google.com/file/d/1tJyPameytkrbcYsfjm3EG6Pats2JzNIT/view?usp=sharing),
 
-[GTA5 final model](https://drive.google.com/) (peaked at 53.5 mIoU).
+[GTA5 final model](https://drive.google.com/file/d/1rtZUDPIthlnvQcaPCbX-O0ydXrrikHvp/view?usp=sharing) (peaked at 53.5 mIoU).
 
-[Synthia Pseudo Labels](https://drive.google.com/),
+[Synthia Pseudo Labels](https://drive.google.com/file/d/1SqEMtKxaEAfNGUzpTRCvoRg9bzRaLYWO/view?usp=sharing),
 
-[Synthia final model](https://drive.google.com/) (54.4 mIoU/13 Classes).
+[Synthia final model](https://drive.google.com/file/d/1s04T-YXkbezxdQByHzo1LfUxQSru_Pks/view?usp=sharing) (54.4 mIoU/13 Classes).
 
 
 ## Acknowledgement
-Our implementation is inspired from [AdaptSeg](https://github.com/wasidennis/AdaptSegNet) and [DISE](https://github.com/a514514772/DISE-Domain-Invariant-Structure-Extraction).
+Our implementation is inspired by [AdaptSeg](https://github.com/wasidennis/AdaptSegNet) and [DISE](https://github.com/a514514772/DISE-Domain-Invariant-Structure-Extraction).
