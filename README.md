@@ -17,7 +17,7 @@
 
 
 ## Datasets
-The data folder `/data` follows the original structure of each dataset:
+The data folder `/data` follows the original structure of each dataset (e.g. GTA5-->Cityscapes):
   ```
   |---data
       |--- Cityscapes
