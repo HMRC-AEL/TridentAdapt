@@ -418,7 +418,7 @@ for i_iter in range(num_steps):
             + 1.0 * loss_recon_self \
             + 0.1 * loss_image_translation \
             + 0.5 * loss_vgg \
-            + 0.5 * loss_grad
+            + 0.5 * loss_grad  #according to our latest observation, excluding loss_grad also produces promising results
     if i_iter >= 5000:
             # adjust weight for segmentation loss to avoid its being overweighed
             total_loss +=  0.1 * loss_recon_feature + 0.2 * loss_sim_sg
